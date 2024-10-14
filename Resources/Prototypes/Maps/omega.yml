@@ -61,3 +61,6 @@
             #silicon
             StationAi: [ 1, 1 ]
             Borg: [ 2, 2 ]
+            #fun
+            WizardBlueGear: [1, 1]
+            Boxer: [4, 4]
