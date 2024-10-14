@@ -412,3 +412,91 @@
   ruleEntry: true
   priority: 100
   text: "/ServerInfo/Guidebook/ServerRules/BanDurations.xml"
+
+- type: guideEntry
+  id: PabloRuleset
+  name: pablo-entry-rules
+  ruleEntry: true
+  priority: 0
+  text: "/ServerInfo/Guidebook/ServerRules/PabloRuleset.xml"
+  children:
+  - PabloC1Roleplay
+  - PabloC2AgeContent
+  - PabloC3Boundries
+  - PabloC4IcOoc
+  - PabloC5Combat
+  - PabloC6PowerGaming
+  - PabloC7Admins
+  - PabloC8Minors
+  - PabloC9Hacking
+  - PabloC10Final
+
+- type: guideEntry
+  id: PabloC1Roleplay
+  name: pablo-entry-rules-c1
+  ruleEntry: true
+  priority: 1
+  text: "/ServerInfo/Guidebook/ServerRules/CorePablo/PabloC1Roleplay.xml"
+
+- type: guideEntry
+  id: PabloC2AgeContent
+  name: pablo-entry-rules-c2
+  ruleEntry: true
+  priority: 2
+  text: "/ServerInfo/Guidebook/ServerRules/CorePablo/PabloC2AgeContent.xml"
+
+- type: guideEntry
+  id: PabloC3Boundries
+  name: pablo-entry-rules-c3
+  ruleEntry: true
+  priority: 3
+  text: "/ServerInfo/Guidebook/ServerRules/CorePablo/PabloC3Boundries.xml"
+
+- type: guideEntry
+  id: PabloC4IcOoc
+  name: pablo-entry-rules-c4
+  ruleEntry: true
+  priority: 4
+  text: "/ServerInfo/Guidebook/ServerRules/CorePablo/PabloC4IcOoc.xml"
+
+- type: guideEntry
+  id: PabloC5Combat
+  name: pablo-entry-rules-c5
+  ruleEntry: true
+  priority: 5
+  text: "/ServerInfo/Guidebook/ServerRules/CorePablo/PabloC5Combat.xml"
+
+- type: guideEntry
+  id: PabloC6PowerGaming
+  name: pablo-entry-rules-c6
+  ruleEntry: true
+  priority: 6
+  text: "/ServerInfo/Guidebook/ServerRules/CorePablo/PabloC6PowerGaming.xml"
+
+- type: guideEntry
+  id: PabloC7Admins
+  name: pablo-entry-rules-c7
+  ruleEntry: true
+  priority: 7
+  text: "/ServerInfo/Guidebook/ServerRules/CorePablo/PabloC7Admins.xml"
+
+- type: guideEntry
+  id: PabloC8Minors
+  name: pablo-entry-rules-c8
+  ruleEntry: true
+  priority: 8
+  text: "/ServerInfo/Guidebook/ServerRules/CorePablo/PabloC8Minors.xml"
+
+- type: guideEntry
+  id: PabloC9Hacking
+  name: pablo-entry-rules-c9
+  ruleEntry: true
+  priority: 9
+  text: "/ServerInfo/Guidebook/ServerRules/CorePablo/PabloC9Hacking.xml"
+
+- type: guideEntry
+  id: PabloC10Final
+  name: pablo-entry-rules-c10
+  ruleEntry: true
+  priority: 10
+  text: "/ServerInfo/Guidebook/ServerRules/CorePablo/PabloC10Final.xml"
