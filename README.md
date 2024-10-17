@@ -6,7 +6,7 @@ Space Station 14 is a remake of SS13 that runs on [Robust Toolbox](https://githu
 
 ## Links
 
-[Website](https://spacestation14.io/) | [Discord](https://discord.gg/aMcVbVbhV2/) | [Forum](https://forum.spacestation14.io/) | [Steam](https://store.steampowered.com/app/1255460/Space_Station_14/) | [Standalone Download](https://spacestation14.io/about/nightlies/)
+[Website](https://spacestation14.io/) | [Discord](https://discord.com/invite/aMcVbVbhV2) | [Forum](https://forum.spacestation14.io/) | [Steam](https://store.steampowered.com/app/1255460/Space_Station_14/) | [Standalone Download](https://spacestation14.io/about/nightlies/)
 
 ## Documentation/Wiki
 
