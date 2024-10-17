@@ -1,5 +1,6 @@
-<p align="center"> <img alt="Space Station 14" width="880" height="300" src="(https://github.com/user-attachments/assets/bdda323f-3f8a-4c9f-8ca9-b6c89508e5f8)
+<p align="center"> <img alt="Space Station 14" width="880" height="300" src="![logo](https://github.com/user-attachments/assets/6605cf4d-01e4-4e22-8917-6431fbcdb875)
 " /></p>
+
 
 Space Station 14 is a remake of SS13 that runs on [Robust Toolbox](https://github.com/space-wizards/RobustToolbox), our homegrown engine written in C#.
 
