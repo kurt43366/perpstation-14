@@ -1,0 +1,49 @@
+- type: body
+  id: Synthon
+  name: "Synthon"
+  root: torso
+  slots:
+    head:
+      part: HeadSynthon
+      connections:
+      - torso
+      organs:
+        brain: OrganSynthonBrain
+        eyes: OrganSynthonEyes
+    torso:
+      part: TorsoSynthon
+      connections:
+      - right_arm
+      - left_arm
+      - right_leg
+      - left_leg
+      organs:
+        heart: OrganSynthonHeart
+        lungs: OrganSynthonLungs
+        stomach: OrganSynthonStomach
+        liver: OrganSynthonLiver
+        kidneys: OrganSynthonKidneys
+    right_arm:
+      part: RightArmSynthon
+      connections:
+      - right_hand
+    left_arm:
+      part: LeftArmSynthon
+      connections:
+      - left_hand
+    right_hand:
+      part: RightHandSynthon
+    left_hand:
+      part: LeftHandSynthon
+    right_leg:
+      part: RightLegSynthon
+      connections:
+      - right_foot
+    left_leg:
+      part: LeftLegSynthon
+      connections:
+      - left_foot
+    right_foot:
+      part: RightFootSynthon
+    left_foot:
+      part: LeftFootSynthon

@@ -1,0 +1,135 @@
+- type: species
+  id: SynthonPerson
+  name: species-name-synthon
+  roundStart: true
+  prototype: MobSynthonPerson
+  sprites: MobSynthonSprites
+  defaultSkinTone: "#b3b3b3"
+  markingLimits: MobSynthonMarkingLimits
+  dollPrototype: MobSynthonPersonDummy
+  skinColoration: Hues
+
+- type: speciesBaseSprites
+  id: MobSynthonSprites
+  sprites:
+    Head: MobSynthonHead
+    Hair: MobSynthonMarkingFollowSkin
+    FacialHair: MobSynthonMarkingFollowSkin
+    Chest: MobSynthonTorso
+    Eyes: MobHumanoidEyes
+    LArm: MobSynthonLArm
+    RArm: MobSynthonRArm
+    LHand: MobSynthonLHand
+    RHand: MobSynthonRHand
+    LLeg: MobSynthonLLeg
+    RLeg: MobSynthonRLeg
+    LFoot: MobSynthonLFoot
+    RFoot: MobSynthonRFoot
+
+- type: markingPoints
+  id: MobSynthonMarkingLimits
+  points:
+    Hair:
+      points: 1
+      required: false
+    FacialHair:
+      points: 1
+      required: false
+    Chest:
+      points: 1
+      required: false
+    Legs:
+      points: 4
+      required: false
+    Arms:
+      points: 4
+      required: false
+
+- type: humanoidBaseSprite
+  id: MobSynthonMarkingFollowSkin
+  markingsMatchSkin: true
+  layerAlpha: 1
+
+- type: humanoidBaseSprite
+  id: MobSynthonHead
+  baseSprite:
+    sprite: Mobs/Species/Synthon/parts.rsi
+    state: head_m
+
+- type: humanoidBaseSprite
+  id: MobSynthonHeadMale
+  baseSprite:
+    sprite: Mobs/Species/Synthon/parts.rsi
+    state: head_m
+
+- type: humanoidBaseSprite
+  id: MobSynthonHeadFemale
+  baseSprite:
+    sprite: Mobs/Species/Synthon/parts.rsi
+    state: head_f
+
+- type: humanoidBaseSprite
+  id: MobSynthonTorso
+  baseSprite:
+    sprite: Mobs/Species/Synthon/parts.rsi
+    state: torso_m
+
+- type: humanoidBaseSprite
+  id: MobSynthonTorsoMale
+  baseSprite:
+    sprite: Mobs/Species/Synthon/parts.rsi
+    state: torso_m
+
+- type: humanoidBaseSprite
+  id: MobSynthonTorsoFemale
+  baseSprite:
+    sprite: Mobs/Species/Synthon/parts.rsi
+    state: torso_f
+
+- type: humanoidBaseSprite
+  id: MobSynthonLLeg
+  baseSprite:
+    sprite: Mobs/Species/Synthon/parts.rsi
+    state: l_leg
+
+- type: humanoidBaseSprite
+  id: MobSynthonLArm
+  baseSprite:
+    sprite: Mobs/Species/Synthon/parts.rsi
+    state: l_arm
+
+- type: humanoidBaseSprite
+  id: MobSynthonLHand
+  baseSprite:
+    sprite: Mobs/Species/Synthon/parts.rsi
+    state: l_hand
+
+- type: humanoidBaseSprite
+  id: MobSynthonLFoot
+  baseSprite:
+    sprite: Mobs/Species/Synthon/parts.rsi
+    state: l_foot
+
+- type: humanoidBaseSprite
+  id: MobSynthonRLeg
+  baseSprite:
+    sprite: Mobs/Species/Synthon/parts.rsi
+    state: r_leg
+
+- type: humanoidBaseSprite
+  id: MobSynthonRArm
+  baseSprite:
+    sprite: Mobs/Species/Synthon/parts.rsi
+    state: r_arm
+
+- type: humanoidBaseSprite
+  id: MobSynthonRHand
+  baseSprite:
+    sprite: Mobs/Species/Synthon/parts.rsi
+    state: r_hand
+
+- type: humanoidBaseSprite
+  id: MobSynthonRFoot
+  baseSprite:
+    sprite: Mobs/Species/Synthon/parts.rsi
+    state: r_foot
