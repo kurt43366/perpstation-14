@@ -45,4 +45,16 @@
 - type: lobbyBackground
   id: ReclaimerNuke
   background: /Textures/LobbyScreens/reclaimer-nuke.webp
+
+- type: lobbyBackground
+  id: Revolutionary
+  background: /Textures/LobbyScreens/revolutionary.webp
+
+- type: lobbyBackground
+  id: Engineering-splash
+  background: /Textures/LobbyScreens/engineering-splash.webp
+
+- type: lobbyBackground
+  id: Agents
+  background: /Textures/LobbyScreens/agents.webp
   
