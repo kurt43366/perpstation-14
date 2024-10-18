@@ -48,7 +48,7 @@
 
 - type: lobbyBackground
   id: Revolutionary
-  background: /Textures/LobbyScreens/revolutionary.webp
+  background: /Textures/LobbyScreens/revolutionarys.webp
 
 - type: lobbyBackground
   id: Engineering-splash
