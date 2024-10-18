@@ -1,4 +1,4 @@
-- type: body
+- type: body 
   id: Synthon
   name: "Synthon"
   root: torso
@@ -9,7 +9,7 @@
       - torso
       organs:
         brain: OrganSynthonBrain
-        eyes: OrganSynthonEyes
+        eyes: OrganSynthonSensor
     torso:
       part: TorsoSynthon
       connections:

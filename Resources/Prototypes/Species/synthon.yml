@@ -1,6 +1,6 @@
 - type: species
   id: SynthonPerson
-  name: species-name-synthon
+  name: Synthon
   roundStart: true
   prototype: MobSynthonPerson
   sprites: MobSynthonSprites
@@ -16,7 +16,7 @@
     Hair: MobSynthonMarkingFollowSkin
     FacialHair: MobSynthonMarkingFollowSkin
     Chest: MobSynthonTorso
-    Eyes: MobHumanoidEyes
+    Eyes: MobSynthonEyes
     LArm: MobSynthonLArm
     RArm: MobSynthonRArm
     LHand: MobSynthonLHand

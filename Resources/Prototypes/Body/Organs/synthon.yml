@@ -19,7 +19,7 @@
         maxVol: 5
         reagents:
         - ReagentId: UncookedAnimalProteins
-          Quantity: 5
+          Quantity: 5 
   - type: FlavorProfile
     flavors:
       - people
