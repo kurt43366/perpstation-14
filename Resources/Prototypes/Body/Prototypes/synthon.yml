@@ -8,8 +8,8 @@
       connections:
       - torso
       organs:
-        brain: OrganSynthonBrain
-        eyes: OrganSynthonSensor
+        brain: OrganHumanBrain
+        eyes: OrganHumanEyes
     torso:
       part: TorsoSynthon
       connections:
@@ -18,11 +18,11 @@
       - right_leg
       - left_leg
       organs:
-        heart: OrganSynthonHeart
-        lungs: OrganSynthonLungs
-        stomach: OrganSynthonStomach
-        liver: OrganSynthonLiver
-        kidneys: OrganSynthonKidneys
+        heart: OrganHumanHeart
+        lungs: OrganHumanLungs
+        stomach: OrganHumanStomach
+        liver: OrganHumanLiver
+        kidneys: OrganHumanKidneys
     right_arm:
       part: RightArmSynthon
       connections:
