@@ -6,8 +6,8 @@
   sprites: MobSynthonSprites
   markingLimits: MobHumanMarkingLimits
   dollPrototype: MobSynthonDummy
-  skinColoration: HumanToned
-  defaultSkinTone: "#bababa"
+  skinColoration: TintedHues
+  defaultSkinTone: "#8a8a8a"
 
 - type: speciesBaseSprites
   id: MobSynthonSprites
