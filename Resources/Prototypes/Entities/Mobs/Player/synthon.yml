@@ -1,5 +1,5 @@
 - type: entity
   save: false
-  parent: BaseMobSynthonPerson
+  parent: BaseMobSynthon
   id: MobSynthon
  
