@@ -38,9 +38,9 @@
       types:
         Heat: 0.5 # gingerbread don't burn very much
   - type: ZombieImmune
-  - type: Temperature # Synthons Operate in both extremes.
-    heatDamageThreshold: 400
-    coldDamageThreshold: 400
+  - type: Temperature # Synthons Overheat in the heat and thrive in the cold.
+    heatDamageThreshold: 320
+    coldDamageThreshold: 230
     currentTemperature: 310.15
     specificHeat: 46
     coldDamage:
@@ -48,7 +48,7 @@
         Cold : 0.05 #per second, scales with temperature & other constants
     heatDamage:
       types:
-        Heat : 1 #per second, scales with temperature & other constants
+        Heat : 3 #per second, scales with temperature & other constants
   - type: TemperatureSpeed
     thresholds:
       289: 0.8
