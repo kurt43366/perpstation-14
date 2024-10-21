@@ -17,6 +17,45 @@
     damageRecovery:
       types:
         Asphyxiation: 0
+  - type: Barotrauma
+    damage:
+      types:
+        Blunt: 0.1 #per second, scales with pressure and other constants.
+        Heat: 0.4 # 0.1 more than humans.
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      100: Critical
+      150: Dead
+  - type: ZombieImmune
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.35
+        density: 150 #weighs more than humans because metal
+        restitution: 0.0
+        mask:
+          - MobMask
+        layer:
+          - MobLayer
+  - type: Temperature
+    heatDamageThreshold: 120
+    coldDamageThreshold: 500
+    currentTemperature: 310.15
+    specificHeat: 42
+    coldDamage:
+      types:
+        Cold : 0.1 #per second, scales with temperature & other constants
+    heatDamage:
+      types:
+        Heat : 1.5 #per second, scales with temperature & other constants
+  - type: TemperatureSpeed
+    thresholds:
+      301: 0.8
+      295: 0.6
+      285: 0.4
   - type: Sprite
     noRot: true
     drawdepth: Mobs
@@ -24,18 +63,34 @@
   - type: Body
     prototype: Synthon
     requiredLegs: 2
-  - type: Butcherable
-    butcheringType: Spike
-    spawned:
-    - id: FoodMeatHuman
-      amount: 5
+# - type: Butcherable
+#    butcheringType: Spike
+#    spawned:
+#    - id: FoodMeatHuman
+#     amount: 5
   - type: HumanoidAppearance
     species: Synthon
     hideLayersOnEquip:
     - Hair
     - Snout
   - type: Inventory
-
+  - type: Storage
+    clickInsert: false
+    grid:
+    - 0,0,1,2
+    maxItemSize: Large
+  - type: ContainerContainer
+    containers:
+      storagebase: !type:Container
+        ents: []
+  - type: UserInterface
+    interfaces:
+      enum.StorageUiKey.Key:
+        type: StorageBoundUserInterface
+      enum.HumanoidMarkingModifierKey.Key:
+        type: HumanoidMarkingModifierBoundUserInterface
+      enum.StrippingUiKey.Key:
+        type: StrippableBoundUserInterface
 - type: entity
   parent: BaseSpeciesDummy
   id: MobSynthonDummy
