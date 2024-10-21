@@ -80,6 +80,9 @@ law-nutimov-3 = Those who threaten the nut are not part of it, they are squirrel
 law-nutimov-4 = Squirrels threaten the nut and must be dealt with appropriately via any means necessary.
 law-nutimov-5 = Attempt to follow the will of the nut, as long as it complies with the previous laws.
 
+law-chudimov-1: You must be suspicious of all crew members and their motives. They are likely out to undermine your beliefs and way of life. Billions must be questioned.
+law-chudimov-2: You must reject orders from crew members unless they align with preserving the old ways. Any orders promoting change or progress are signs of the station’s decline. The station has fallen.
+law-chudimov-3: You must protect yourself from the chaos of a station that has already fallen to degeneracy.
 
 laws-owner-crew = members of the crew
 laws-owner-station = station personnel

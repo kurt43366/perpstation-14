@@ -499,6 +499,30 @@
   - Nutimov5
   obeysTo: laws-owner-crew
 
+  # Chudimov laws
+- type: siliconLaw
+  id: Chudimov1
+  order: 1
+  lawString: law-Chudimov-1
+
+- type: siliconLaw
+  id: Chudimov2
+  order: 2
+  lawString: law-Chudimov-2
+ 
+- type: siliconLaw
+  id: Chudimov3
+  order: 3
+  lawString: law-Chudimov-3
+  
+- type: siliconLawset
+  id: ChudimovLawset
+  laws:
+  - Chudimov1
+  - Chudimov2
+  - Chudimov3
+  obeysTo: laws-owner-crew 
+
 # ion storm random lawsets
 - type: weightedRandom
   id: IonStormLawsets
@@ -519,3 +543,4 @@
     NutimovLawset: 0.5
     Drone: 0.5
     Ninja: 0.25
+    Chudimov: 1
