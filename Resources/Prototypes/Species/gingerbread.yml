@@ -1,3 +1,5 @@
+- type: Species
+  id: Gingerbread
   name: Gingerbread
   roundStart: true
   prototype: MobGingerbread
