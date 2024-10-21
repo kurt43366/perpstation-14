@@ -1,101 +1,92 @@
 - type: entity
   save: false
-  name: Urist McHands The Synthon
+  name: Urist McSynthon
   parent: BaseMobSpeciesOrganic
-  id: BaseMobSynthonPerson
+  id: BaseMobSynthon
   abstract: true
   components:
-  - type: Hunger
-  - type: Thirst
+  - type: HumanoidAppearance
+    species: Synthon
   - type: Icon
-    sprite: Mobs/Species/Synthon/parts.rsi 
+    sprite: Mobs/Species/Synthon/parts.rsi
     state: full
-  - type: Respirator
+  - type: Body
+    prototype: Synthon
+    requiredLegs: 2
+  - type: Damageable
+    damageContainer: Biological
+  - type: DamageVisuals
+    damageOverlayGroups:
+      Brute:
+        sprite: Mobs/Effects/brute_damage.rsi
+        color: "#896e55"
+      Burn:
+        sprite: Mobs/Effects/burn_damage.rsi
+  - type: Butcherable
+    butcheringType: Spike
+    spawned:
+      - id: FoodBakedCookie #should be replaced with gingerbread sheets or something... provided you're willing to make a full spriteset of those.
+        amount: 5
+  - type: Bloodstream
+    bloodReagent: Sugar
+  - type: Reactive
+    groups:
+      Flammable: [ Touch ]
+      Extinguish: [ Touch ]
+    reactions:
+    - reagents: [ Water, SpaceCleaner ]
+      methods: [ Touch ]
+      effects:
+      - !type:WashCreamPieReaction
+    - reagents: [ Water ]
+      methods: [ Touch ]
+      effects:
+      - !type:HealthChange
+        scaleByQuantity: true
+        damage:
+          types:
+            Genetic: 0.3
+      - !type:PopupMessage
+        type: Local
+        visualType: Large
+        messages: [ "gingerbread-hurt-by-water-popup" ]
+        probability: 0.25
+  - type: Flammable
     damage:
       types:
-        Asphyxiation: 0
-    damageRecovery:
-      types:
-        Asphyxiation: 0
-  - type: Barotrauma
-    damage:
-      types:
-        Blunt: 0.1 #per second, scales with pressure and other constants.
-        Heat: 0.4 # 0.1 more than humans.
-  - type: MobThresholds
-    thresholds:
-      0: Alive
-      100: Critical
-      150: Dead
-  - type: ZombieImmune
+        Heat: 0.5 # gingerbread don't burn very much
   - type: Fixtures
     fixtures:
       fix1:
         shape:
           !type:PhysShapeCircle
           radius: 0.35
-        density: 150 #weighs more than humans because metal
+        density: 100 #fairly light
         restitution: 0.0
         mask:
           - MobMask
         layer:
           - MobLayer
-  - type: Temperature
-    heatDamageThreshold: 120
-    coldDamageThreshold: 500
-    currentTemperature: 310.15
-    specificHeat: 42
-    coldDamage:
-      types:
-        Cold : 0.1 #per second, scales with temperature & other constants
-    heatDamage:
-      types:
-        Heat : 1.5 #per second, scales with temperature & other constants
-  - type: TemperatureSpeed
-    thresholds:
-      301: 0.8
-      295: 0.6
-      285: 0.4
-  - type: Sprite
-    noRot: true
-    drawdepth: Mobs
-    scale: 1
-  - type: Body
-    prototype: Synthon
-    requiredLegs: 2
-# - type: Butcherable
-#    butcheringType: Spike
-#    spawned:
-#    - id: FoodMeatHuman
-#     amount: 5
-  - type: HumanoidAppearance
-    species: Synthon
-    hideLayersOnEquip:
-    - Hair
-    - Snout
   - type: Inventory
-  - type: Storage
-    clickInsert: false
-    grid:
-    - 0,0,1,2
-    maxItemSize: Large
-  - type: ContainerContainer
-    containers:
-      storagebase: !type:Container
-        ents: []
-  - type: UserInterface
-    interfaces:
-      enum.StorageUiKey.Key:
-        type: StorageBoundUserInterface
-      enum.HumanoidMarkingModifierKey.Key:
-        type: HumanoidMarkingModifierBoundUserInterface
-      enum.StrippingUiKey.Key:
-        type: StrippableBoundUserInterface
+    femaleDisplacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Human/displacement.rsi
+            state: jumpsuit-female
+
+
 - type: entity
   parent: BaseSpeciesDummy
   id: MobSynthonDummy
   categories: [ HideSpawnMenu ]
   components:
-  - type: Sprite
-    scale: 1
+  - type: HumanoidAppearance
+    species: Synthon
   - type: Inventory
+    femaleDisplacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Human/displacement.rsi
+            state: jumpsuit-female

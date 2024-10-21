@@ -1,13 +1,13 @@
 - type: species
-  id: SynthonPerson
+  id: Synthon
   name: Synthon
   roundStart: true
-  prototype: MobSynthonPerson
+  prototype: MobSynthon
   sprites: MobSynthonSprites
-  defaultSkinTone: "#b3b3b3"
   markingLimits: MobHumanMarkingLimits
-  dollPrototype: MobSynthonPersonDummy
-  skinColoration: Hues
+  dollPrototype: MobSynthonDummy
+  skinColoration: HumanToned
+  defaultSkinTone: "#9a7c5a"
 
 - type: speciesBaseSprites
   id: MobSynthonSprites
@@ -27,9 +27,10 @@
     RFoot: MobSynthonRFoot
 
 - type: humanoidBaseSprite
-  id: MobSynthonMarkingFollowSkin
-  markingsMatchSkin: true
-  layerAlpha: 1
+  id: MobSynthonEyes
+  baseSprite:
+    sprite: Mobs/Customization/eyes.rsi
+    state: no_eyes
 
 - type: humanoidBaseSprite
   id: MobSynthonHead
@@ -74,16 +75,16 @@
     state: l_leg
 
 - type: humanoidBaseSprite
-  id: MobSynthonLArm
-  baseSprite:
-    sprite: Mobs/Species/Synthon/parts.rsi
-    state: l_arm
-
-- type: humanoidBaseSprite
   id: MobSynthonLHand
   baseSprite:
     sprite: Mobs/Species/Synthon/parts.rsi
     state: l_hand
+
+- type: humanoidBaseSprite
+  id: MobSynthonLArm
+  baseSprite:
+    sprite: Mobs/Species/Synthon/parts.rsi
+    state: l_arm
 
 - type: humanoidBaseSprite
   id: MobSynthonLFoot
@@ -98,16 +99,16 @@
     state: r_leg
 
 - type: humanoidBaseSprite
-  id: MobSynthonRArm
-  baseSprite:
-    sprite: Mobs/Species/Synthon/parts.rsi
-    state: r_arm
-
-- type: humanoidBaseSprite
   id: MobSynthonRHand
   baseSprite:
     sprite: Mobs/Species/Synthon/parts.rsi
     state: r_hand
+
+- type: humanoidBaseSprite
+  id: MobSynthonRArm
+  baseSprite:
+    sprite: Mobs/Species/Synthon/parts.rsi
+    state: r_arm
 
 - type: humanoidBaseSprite
   id: MobSynthonRFoot
