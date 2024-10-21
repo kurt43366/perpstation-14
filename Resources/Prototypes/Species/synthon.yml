@@ -5,7 +5,7 @@
   prototype: MobSynthonPerson
   sprites: MobSynthonSprites
   defaultSkinTone: "#b3b3b3"
-  markingLimits: MobSynthonMarkingLimits
+  markingLimits: MobHumanMarkingLimits
   dollPrototype: MobSynthonPersonDummy
   skinColoration: Hues
 
@@ -13,8 +13,8 @@
   id: MobSynthonSprites
   sprites:
     Head: MobSynthonHead
-    Hair: MobSynthonMarkingFollowSkin
-    FacialHair: MobSynthonMarkingFollowSkin
+    HeadTop: MobHumanoidAnyMarking
+    HeadSide: MobHumanoidAnyMarking
     Chest: MobSynthonTorso
     Eyes: MobSynthonEyes
     LArm: MobSynthonLArm
@@ -25,25 +25,6 @@
     RLeg: MobSynthonRLeg
     LFoot: MobSynthonLFoot
     RFoot: MobSynthonRFoot
-
-- type: markingPoints
-  id: MobSynthonMarkingLimits
-  points:
-    Hair:
-      points: 1
-      required: false
-    FacialHair:
-      points: 1
-      required: false
-    Chest:
-      points: 1
-      required: false
-    Legs:
-      points: 4
-      required: false
-    Arms:
-      points: 4
-      required: false
 
 - type: humanoidBaseSprite
   id: MobSynthonMarkingFollowSkin

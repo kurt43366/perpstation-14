@@ -1,0 +1,117 @@
+- type: entity
+  id: PartSynthon
+  parent: [BaseItem, BasePart]
+  name: "sython body part"
+  abstract: true
+  components:
+  - type: Extractable
+    juiceSolution:
+      reagents:
+      - ReagentId: Nutriment
+        Quantity: 3
+      - ReagentId: Sugar
+        Quantity: 10
+
+- type: entity
+  id: TorsoSynthon
+  name: "synthon torso"
+  parent: [PartSynthon, BaseTorso]
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Synthon/parts.rsi
+    state: "torso_m"
+  - type: Extractable
+    juiceSolution:
+      reagents:
+      - ReagentId: Nutriment
+        Quantity: 10
+      - ReagentId: Sugar
+        Quantity: 20
+
+- type: entity
+  id: HeadSynthon
+  name: "synthon head"
+  parent: [PartSynthon, BaseHead]
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Synthon/parts.rsi
+    state: "head_m"
+  - type: Extractable
+    juiceSolution:
+      reagents:
+      - ReagentId: Nutriment
+        Quantity: 5
+      - ReagentId: Sugar
+        Quantity: 10
+
+- type: entity
+  id: LeftArmSynthon
+  name: "left synthon arm"
+  parent: [PartSynthon, BaseLeftArm]
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Synthon/parts.rsi
+    state: "l_arm"
+
+- type: entity
+  id: RightArmSynthon
+  name: "right synthon arm"
+  parent: [PartSynthon, BaseRightArm]
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Synthon/parts.rsi
+    state: "r_arm"
+
+- type: entity
+  id: LeftHandSynthon
+  name: "left synthon hand"
+  parent: [PartSynthon, BaseLeftHand]
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Synthon/parts.rsi
+    state: "l_hand"
+
+- type: entity
+  id: RightHandSynthon
+  name: "right synthon hand"
+  parent: [PartSynthon, BaseRightHand]
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Synthon/parts.rsi
+    state: "r_hand"
+
+- type: entity
+  id: LeftLegSynthon
+  name: "left synthon leg"
+  parent: [PartSynthon, BaseLeftLeg]
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Synthon/parts.rsi
+    state: "l_leg"
+
+- type: entity
+  id: RightLegSynthon
+  name: "right synthon leg"
+  parent: [PartSynthon, BaseRightLeg]
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Synthon/parts.rsi
+    state: "r_leg"
+
+- type: entity
+  id: LeftFootSynthon
+  name: "left synthon foot"
+  parent: [PartSynthon, BaseLeftFoot]
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Synthon/parts.rsi
+    state: "l_foot"
+
+- type: entity
+  id: RightFootSynthon
+  name: "right synthon foot"
+  parent: [PartSynthon, BaseRightFoot]
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Synthon/parts.rsi
+    state: "r_foot"
