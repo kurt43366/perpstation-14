@@ -85,7 +85,7 @@
 
 # Pins
 - type: loadout
-  id: ClothingNeckLGBTPin
+  id: ClothingNeckLGbTpin
   storage:
     back:
     - ClothingNeckLGBTPin
@@ -155,6 +155,12 @@
   storage:
     back:
     - ClothingNeckGoldAutismPin
+
+- type: loadout
+  id: ClothingNeckWarPin
+  storage:
+    back:
+    - ClothingNeckWarPin
 
 # Towels
 - type: loadout

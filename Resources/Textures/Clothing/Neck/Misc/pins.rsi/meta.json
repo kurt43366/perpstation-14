@@ -90,6 +90,13 @@
         {
             "name": "trans-equipped-NECK",
             "directions": 4
+        },
+        {
+            "name": "warmedal"
+        },
+        {
+            "name": "warmedal-equipped-NECK",
+            "directions": 4
         }
     ]
 }
