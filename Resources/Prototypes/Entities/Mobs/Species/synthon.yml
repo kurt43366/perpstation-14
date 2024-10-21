@@ -22,11 +22,6 @@
         color: "#896e55"
       Burn:
         sprite: Mobs/Effects/burn_damage.rsi
-  - type: Butcherable
-    butcheringType: Spike
-    spawned:
-      - id: FoodBakedCookie #should be replaced with gingerbread sheets or something... provided you're willing to make a full spriteset of those.
-        amount: 5
   - type: Bloodstream
     bloodReagent: Sugar
   - type: Reactive
@@ -38,30 +33,42 @@
       methods: [ Touch ]
       effects:
       - !type:WashCreamPieReaction
-    - reagents: [ Water ]
-      methods: [ Touch ]
-      effects:
-      - !type:HealthChange
-        scaleByQuantity: true
-        damage:
-          types:
-            Genetic: 0.3
-      - !type:PopupMessage
-        type: Local
-        visualType: Large
-        messages: [ "gingerbread-hurt-by-water-popup" ]
-        probability: 0.25
   - type: Flammable
     damage:
       types:
         Heat: 0.5 # gingerbread don't burn very much
+  - type: ZombieImmune
+  - type: Temperature # Synthons Operate in both extremes.
+    heatDamageThreshold: 400
+    coldDamageThreshold: 400
+    currentTemperature: 310.15
+    specificHeat: 46
+    coldDamage:
+      types:
+        Cold : 0.05 #per second, scales with temperature & other constants
+    heatDamage:
+      types:
+        Heat : 1 #per second, scales with temperature & other constants
+  - type: TemperatureSpeed
+    thresholds:
+      289: 0.8
+      275: 0.6
+      250: 0.4
+  - type: Respirator
+    damage:
+      types:
+        Asphyxiation: 0.0
+    damageRecovery:
+      types:
+        Asphyxiation: 0.0
+    maxSaturation: 15
   - type: Fixtures
     fixtures:
       fix1:
         shape:
           !type:PhysShapeCircle
           radius: 0.35
-        density: 100 #fairly light
+        density: 250 #Metal Skeleton
         restitution: 0.0
         mask:
           - MobMask
