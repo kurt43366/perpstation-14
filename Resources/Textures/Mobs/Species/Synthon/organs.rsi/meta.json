@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from tgstation at https://github.com/tgstation/tgstation/commit/cf45322c7ee16f9d7e43d5260daf24ceb77c1b25",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+        "name": "synth-brain"
+    },
+    {
+        "name": "synth-brain-inhand-left",
+        "directions": 4
+    },
+    {
+        "name": "synth-brain-inhand-right",
+        "directions": 4
+    },
+    {
+        "name": "audio-unit"
+    },
+    {
+        "name": "visual-sensor-inhand-left",
+        "directions": 4
+    },
+    {
+        "name": "visual-sensor-inhand-right",
+        "directions": 4
+    },
+    {
+        "name": "visual-sensor-l"
+    },
+    {
+        "name": "visual-sensor-r"
+    },
+    {
+        "name": "central-aortic-pump-inhand-left",
+        "directions": 4
+    },
+    {
+        "name": "central-aortic-pump-inhand-right",
+        "directions": 4
+    },
+    {
+        "name": "central-aortic-pump"
+    },
+    {
+        "name": "central-aortic-pump",
+        "delays": [
+            [
+                0.6,
+                0.1,
+                0.1
+            ]
+        ]
+    },
+    {
+        "name": "heat-sink-inhand-left",
+        "directions": 4
+    },
+    {
+        "name": "heat-sink-inhand-right",
+        "directions": 4
+    },
+    {
+        "name": "heat-sink"
+    },
+    {
+        "name": "filtration-system"
+    },
+    {
+        "name": "filtration-system-on",
+        "delays": [
+            [
+                0.5
+            ]
+        ]
+    },
+    {
+        "name": "filtration-system-inhand-left",
+        "directions": 4
+    },
+    {
+        "name": "filtration-system-inhand-right",
+        "directions": 4
+    },
+    {
+        "name": "heat-vent-inhand-left",
+        "directions": 4
+    },
+    {
+        "name": "heat-vent-inhand-right",
+        "directions": 4
+    },
+    {
+        "name": "heat-vent-l"
+    },
+    {
+        "name": "heat-vent-r"
+    },
+    {
+        "name": "energy-ingest"
+    },
+    {
+        "name": "energy-ingest-inhand-left",
+        "directions": 4
+    },
+    {
+        "name": "energy-ingest-inhand-right",
+        "directions": 4
+    },
+    {
+        "name": "vocal-processor"
+    },
+    {
+        "name": "synthetic-muscle"
+    },
+    {
+        "name": "internal-wiring"
+    },
+    {
+        "name": "fluid-tubing"
+    }
+  ]
+}

@@ -1,6 +1,4 @@
-- type: species
-  id: Gingerbread
-  name: species-name-human
+  name: Gingerbread
   roundStart: true
   prototype: MobGingerbread
   sprites: MobGingerbreadSprites
