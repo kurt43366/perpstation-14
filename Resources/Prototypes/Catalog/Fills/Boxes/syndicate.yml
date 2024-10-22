@@ -12,6 +12,19 @@
           amount: 1
 
 - type: entity
+  id: Hal9000Kit
+  parent: [BoxCardboard, BaseSyndicateContraband]
+  name: hal9000 kit
+  suffix: Filled
+  components:
+    - type: StorageFill
+      contents:
+        - id: Emag
+          amount: 2
+        - id: AntimovCircuitBoard
+          amount: 1
+
+- type: entity
   parent: [BoxVial, BaseSyndicateContraband]
   id: ChemicalSynthesisKit
   name: chemical synthesis kit
