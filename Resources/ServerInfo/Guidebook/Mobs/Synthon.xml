@@ -1,0 +1,24 @@
+<Document>
+  # Synthon People
+
+  <Box>
+    <GuideEntityEmbed Entity="MobSynthonPerson" Caption=""/>
+  </Box>
+
+  When parts of the station are missing air, Synthons become invaluable, taking on the dangerous roles that organic crew members would struggle with.
+  Whether repairing breaches, working in atmospherically compromised areas, or conducting maintenance in exposed regions, they can operate effectively in places where other crew would need special suits or equipment.
+  
+  Synthons are more resilient to pressure changes and thrive in high-risk areas such as engine rooms or space mining operations.
+  However, while they can handle extreme conditions better than organics, prolonged exposure to high or low-pressure environments without proper management will still cause damage over time.
+
+  Synthons excel in industrial, engineering, and dangerous tasks, often operating in vacuum or hazardous environments for extended periods.
+  However, they must carefully manage their internal temperature, as prolonged exposure to vacuum without an atmosphere will lead to overheating.
+  They can use their Heat Sink Vent ability to prevent critical failure in emergencies, but will need Robotics to replace it afterward.
+
+
+  Synthons consume synthetic blood to stay operational, which depletes over time as they perform labor-intensive tasks.
+  To restore their power, they must either consume food or receive specialized treatment in med-bay or chemistry to replenish their synthetic blood supply.
+
+  They take [color=#1e90ff]Fixing Damage Rates[/color], but [color=#ffa500]Fixing Damage rates[/color].
+
+</Document>

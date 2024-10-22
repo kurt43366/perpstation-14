@@ -10,6 +10,7 @@
     - Moth
     - Reptilian
     - SlimePerson
+    - Synthon
     - Vox
 
 - type: guideEntry
@@ -46,6 +47,11 @@
   id: SlimePerson
   name: species-name-slime
   text: "/ServerInfo/Guidebook/Mobs/SlimePerson.xml"
+
+- type: guideEntry
+  id: Synthon
+  name: species-name-Synthon
+  text: "/ServerInfo/Guidebook/Mobs/Synthon.xml"
 
 - type: guideEntry
   id: Vox
