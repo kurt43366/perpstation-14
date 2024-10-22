@@ -253,6 +253,18 @@
   - type: SiliconLawProvider
     laws: NutimovLawset
 
+- type: entity
+  id: ChudiMovCircuitBoard
+  parent: BaseElectronics
+  name: law board (ChudiMov)
+  description: An electronics board containing the ChudiMov lawset.
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/module.rsi
+    state: std_mod
+  - type: SiliconLawProvider
+    laws: ChudiMovLawset
+
 # Items
 - type: entity
   id: Intellicard
