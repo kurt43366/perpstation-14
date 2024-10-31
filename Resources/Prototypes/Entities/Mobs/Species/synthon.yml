@@ -22,8 +22,14 @@
         color: "#896e55"
       Burn:
         sprite: Mobs/Effects/burn_damage.rsi
+  - type: DamageOnHighSpeedImpact
+    damage:
+      types:
+        Blunt: 5
+    soundHit:
+      collection: MetalThud
   - type: Bloodstream
-    bloodReagent: Sugar
+    bloodReagent: Hydroxide
   - type: Reactive
     groups:
       Flammable: [ Touch ]
@@ -36,7 +42,7 @@
   - type: Flammable
     damage:
       types:
-        Heat: 0.5 # gingerbread don't burn very much
+        Heat: 0.75 # Synthic skin is plastic so burns a tiny bit
   - type: ZombieImmune
   - type: Temperature # Synthons Overheat in the heat and thrive in the cold.
     heatDamageThreshold: 320
