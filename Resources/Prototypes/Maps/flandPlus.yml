@@ -64,3 +64,5 @@
             Borg: [ 2, 2 ]
             #Misc
             Boxer: [4, 4]
+            GangLeader: [2, 2]
+            GangMember: [4, 4]
