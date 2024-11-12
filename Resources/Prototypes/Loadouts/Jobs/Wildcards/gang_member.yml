@@ -1,0 +1,88 @@
+# Bandana Head
+- type: loadout
+  id: RedGangBandanaHead
+  equiment:
+    head: ClothingHeadBandRed
+
+- type: loadout
+  id: BlueGangBandana
+  equiment:
+    head: ClothingHeadBandRed
+
+# Bandana Face
+- type: loadout
+  id: RedGangBandanaFace
+  equiment:
+    head: ClothingMaskBandRed
+
+- type: loadout
+  id: BlueGangBandanaFace
+  equiment:
+    head: ClothingMaskBandBlue
+
+# Back
+- type: loadout
+  id: CommonBackpack
+  equipment:
+    back: ClothingBackpack
+
+- type: loadout
+  id: CommonSatchel
+  equipment:
+    back: ClothingBackpackSatchel
+
+- type: loadout
+  id: CommonDuffel
+  equipment:
+    back: ClothingBackpackDuffel
+
+# Jumpsuits
+# Red
+- type: loadout
+  id: RedJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitColorMaroon
+
+- type: loadout
+  id: RedJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtColorMaroon
+
+# Blue
+- type: loadout
+  id: BlueJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitColorDarkBlue
+
+- type: loadout
+  id: BlueJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtColorDarkBlue
+
+# Gloves
+- type: loadout
+  id: RedGloves
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GreyTider
+  equipment:
+    gloves: ClothingHandsGlovesColorRed
+
+- type: loadout
+  id: BlueGloves
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: GreyTider
+  equipment:
+    gloves: ClothingHandsGlovesColorBlue
+
+# Shoes
+- type: loadout
+  id: BlueShoes
+  equipment:
+    shoes: ClothingShoesColorBlue
+
+- type: loadout
+  id: RedShoes
+  equipment:
+    shoes: ClothingShoesColorRed

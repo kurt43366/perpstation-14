@@ -1,0 +1,20 @@
+- type: job
+  id: GangMember
+  name: job-name-gang-member
+  description: job-description-gang-member
+  playTimeTracker: JobGangMemeber
+  startingGear: GangMemberGear
+  icon: "JobIconBoxer"
+  supervisors: job-supervisors-gang-leader
+  access:
+  - Service
+  - Maintenance
+
+- type: startingGear
+  id: GangMemberGear
+  equipment:
+    id: VisitorPDA
+    ears: ClothingHeadsetService
+  #storage:
+    #back:
+    #- Stuff

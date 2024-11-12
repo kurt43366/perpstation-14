@@ -47,3 +47,5 @@ job-description-station-ai = Follow your laws, serve the crew.
 job-description-visitor = Enjoy your visit to the station.
 job-description-warden = Patrol the security department, ensure that no one is stealing from the armory, and make sure that all prisoners are processed and let out when their time is up.
 job-description-zookeeper = Put on a joyful display of cute animals and space carps for all the crew to see. Currently available on Cog and Oasis.
+job-description-gang-member = Gang members work together through non-violent intimidation, sabotage, and contraband distribution to control key areas of the station, aiming to expand their influence and disrupt station security.
+job-description-gang-leader = The Gang Leader coordinates non-violent intimidation, sabotage, and contraband operations, directing gang members to secure key areas of the station and expand their influence while avoiding direct conflict with security.

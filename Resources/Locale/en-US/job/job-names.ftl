@@ -117,3 +117,5 @@ JobTechnicalAssistant = Technical Assistant
 JobVisitor = Visitor
 JobWarden = Warden
 JobZookeeper = Zookeeper
+JobGangMember = Gang Member
+JobGangLeader = Gang Leader
