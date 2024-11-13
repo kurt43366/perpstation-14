@@ -1,67 +1,67 @@
 # Bandana Head
 - type: loadout
-  id: RedGangBandanaHead
+  id: RedMemberGangBandanaHead
   equiment:
     head: ClothingHeadBandRed
 
 - type: loadout
-  id: BlueGangBandana
+  id: BlueMemberGangBandana
   equiment:
     head: ClothingHeadBandRed
 
 # Bandana Face
 - type: loadout
-  id: RedGangBandanaFace
+  id: RedMemberGangBandanaFace
   equiment:
     head: ClothingMaskBandRed
 
 - type: loadout
-  id: BlueGangBandanaFace
+  id: BlueMemberGangBandanaFace
   equiment:
     head: ClothingMaskBandBlue
 
 # Back
 - type: loadout
-  id: GangCommonBackpack
+  id: GangMemberCommonBackpack
   equipment:
     back: ClothingBackpack
 
 - type: loadout
-  id: GangCommonSatchel
+  id: GangMemberCommonSatchel
   equipment:
     back: ClothingBackpackSatchel
 
 - type: loadout
-  id: GangCommonDuffel
+  id: GangMemberCommonDuffel
   equipment:
     back: ClothingBackpackDuffel
 
 # Jumpsuits
 # Red
 - type: loadout
-  id: GangRedJumpsuit
+  id: GangMemberRedJumpsuit
   equipment:
     jumpsuit: ClothingUniformJumpsuitColorMaroon
 
 - type: loadout
-  id: GangRedJumpskirt
+  id: GangMemberRedJumpskirt
   equipment:
     jumpsuit: ClothingUniformJumpskirtColorMaroon
 
 # Blue
 - type: loadout
-  id: GangBlueJumpsuit
+  id: GangMemberBlueJumpsuit
   equipment:
     jumpsuit: ClothingUniformJumpsuitColorDarkBlue
 
 - type: loadout
-  id: GangBlueJumpskirt
+  id: GangMemberBlueJumpskirt
   equipment:
     jumpsuit: ClothingUniformJumpskirtColorDarkBlue
 
 # Gloves
 - type: loadout
-  id: GangRedGloves
+  id: GangMemberRedGloves
   effects:
   - !type:GroupLoadoutEffect
     proto: GreyTider
@@ -69,7 +69,7 @@
     gloves: ClothingHandsGlovesColorRed
 
 - type: loadout
-  id: GangBlueGloves
+  id: GangMemberBlueGloves
   effects:
   - !type:GroupLoadoutEffect
     proto: GreyTider
@@ -78,11 +78,11 @@
 
 # Shoes
 - type: loadout
-  id: GangBlueShoes
+  id: GangMemberBlueShoes
   equipment:
     shoes: ClothingShoesColorBlue
 
 - type: loadout
-  id: GangRedShoes
+  id: GangMemberRedShoes
   equipment:
     shoes: ClothingShoesColorRed
