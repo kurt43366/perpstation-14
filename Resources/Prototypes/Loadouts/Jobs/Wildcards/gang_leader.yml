@@ -22,46 +22,46 @@
 
 # Back
 - type: loadout
-  id: CommonBackpack
+  id: GangCommonBackpack
   equipment:
     back: ClothingBackpack
 
 - type: loadout
-  id: CommonSatchel
+  id: GangCommonSatchel
   equipment:
     back: ClothingBackpackSatchel
 
 - type: loadout
-  id: CommonDuffel
+  id: GangCommonDuffel
   equipment:
     back: ClothingBackpackDuffel
 
 # Jumpsuits
 # Red
 - type: loadout
-  id: RedJumpsuit
+  id: GangRedJumpsuit
   equipment:
     jumpsuit: ClothingUniformJumpsuitColorMaroon
 
 - type: loadout
-  id: RedJumpskirt
+  id: GangRedJumpskirt
   equipment:
     jumpsuit: ClothingUniformJumpskirtColorMaroon
 
 # Blue
 - type: loadout
-  id: BlueJumpsuit
+  id: GangBlueJumpsuit
   equipment:
     jumpsuit: ClothingUniformJumpsuitColorDarkBlue
 
 - type: loadout
-  id: BlueJumpskirt
+  id: GangBlueJumpskirt
   equipment:
     jumpsuit: ClothingUniformJumpskirtColorDarkBlue
 
 # Gloves
 - type: loadout
-  id: RedGloves
+  id: GangRedGloves
   effects:
   - !type:GroupLoadoutEffect
     proto: GreyTider
@@ -69,7 +69,7 @@
     gloves: ClothingHandsGlovesColorRed
 
 - type: loadout
-  id: BlueGloves
+  id: GangBlueGloves
   effects:
   - !type:GroupLoadoutEffect
     proto: GreyTider
@@ -78,11 +78,11 @@
 
 # Shoes
 - type: loadout
-  id: BlueShoes
+  id: GangBlueShoes
   equipment:
     shoes: ClothingShoesColorBlue
 
 - type: loadout
-  id: RedShoes
+  id: GangRedShoes
   equipment:
     shoes: ClothingShoesColorRed
